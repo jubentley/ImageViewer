@@ -55,10 +55,22 @@ Initialize Options:
 ```javascript
 /**
  * Three buttons down the bottom can appear to Unsplash and other random images
- * Left and Right buttons will appear
+ * Deactivated as Unsplash continually changes its API
  * @param {boolean} set - true/false.
  */
 iv_set_extra_buttons(true);
+
+/**
+ * Show LR buttons but only random image (only single image)
+ * @param {boolean} set - true/false.
+ */
+iv_set_lr_force(true);
+
+/**
+ * Invert scroll wheel zoom.
+ * @param {boolean} set - true/false.
+ */
+iv_set_invert_zoom(false);
 ```
 
 End it:
