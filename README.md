@@ -20,7 +20,7 @@ let adr_gkschem = [
     "https://fs.jbn.ai/fs/host/gkschem/gkuml2.png"
 ];
 /**
- * Left and Right buttons will apear
+ * Left and Right buttons will appear
  * @param {img_url} - The URL of the initial image to display.
  * @param {img_id} - The inital index of the array. 
  * @param {img_list_arr} img_url - The array of URL's.
@@ -44,7 +44,7 @@ iv_set_lr_api(
 );
 
 /**
- * Left and Right buttons will apear
+ * Left and Right buttons will appear
  * @param {img_url} - The URL of the initial image to display.
  * @param {img_id} - The inital index of the array. 
  */
