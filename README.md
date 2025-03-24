@@ -14,10 +14,10 @@ image_viewer(img_url);
 
 End it:
 ```javascript
-    //inbuilt
-    let exit_btn = document.createElement("button");
-    exit_btn.onclick = function () { terminate(); };
-    document.body.appendChild(exit_btn);
+//inbuilt
+let exit_btn = document.createElement("button");
+exit_btn.onclick = function () { terminate(); };
+document.body.appendChild(exit_btn);
 ```
 
 
