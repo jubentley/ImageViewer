@@ -22,6 +22,14 @@ let adr_gkschem = [
     "https://fs.jbn.ai/fs/host/gkschem/gatekeeperv2r1c.png",
     "https://fs.jbn.ai/fs/host/gkschem/gkuml2.png"
 ];
+/**
+ * img_url,
+ * img_id,
+ * img_list_arr
+ * @param {img_url} img_url - The URL of the image to display.
+ * @param {img_id} img_url - The URL of the image to display.
+ * @param {img_list_arr} img_url - The URL of the image to display.
+ */
 /// image_viewer_local(array, initial array index, initial src)
 image_viewer_local(adr_gkschem[0],0,adr_gkschem)
 ```
