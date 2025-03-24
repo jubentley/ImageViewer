@@ -34,9 +34,9 @@ Call it (passing in an API):
 let base_url = window.location.origin; // localhost or live
 let base_url = 'external_api';
 /**
- * initialization
- * @param {img_url} - The base URL of image src addresses.
- * @param {range_url} - The base URL of image[id] length. 
+ * initialize
+ * @param {string} img_url - The base URL of image src addresses.
+ * @param {string} range_url - The base URL of image[id] length. 
  */
 iv_set_lr_api(
     base_url + "/api/url_of_id_index",
@@ -45,8 +45,8 @@ iv_set_lr_api(
 
 /**
  * Left and Right buttons will appear
- * @param {img_url} - The URL of the initial image to display.
- * @param {img_id} - The inital index of the array. 
+ * @param {string} img_url - The URL of the initial image to display.
+ * @param {string} img_id - The inital index of the array. 
  */
 image_viewer_lrapi('/images/default_image.jpg', 0);
 ```
@@ -54,8 +54,9 @@ image_viewer_lrapi('/images/default_image.jpg', 0);
 Initialize Options:
 ```javascript
 /**
+ * Three buttons down the bottom can appear to Unsplash and other random images
  * Left and Right buttons will appear
- * @param {set} - The URL of the initial image to display.
+ * @param {boolean} set - true/false.
  */
 iv_set_extra_buttons(true);
 ```
