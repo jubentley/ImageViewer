@@ -22,7 +22,7 @@ let adr_gkschem = [
 /**
  * Left and Right buttons will appear
  * @param {string} img_url - The URL of the initial image to display.
- * @param {number(integer)} img_id- The inital index of the array. 
+ * @param {number} img_id - The inital index of the array. 
  * @param {string[]} img_list_arr - The array of URL's.
  */
 image_viewer_local(adr_gkschem[0],0,adr_gkschem);
