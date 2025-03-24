@@ -3,10 +3,16 @@ JavaScript (+CSS) self contained Image Viewer
 
 Load it:
 ```html
-    <link rel="stylesheet" href="/css/imageviewer.css" />
-    <script src="/js/imageviewer.js"></script>
+<link rel="stylesheet" href="/css/imageviewer.css" />
+<script src="/js/imageviewer.js"></script>
+```
+
 Call it:
-    image_viewer(img_url);
+```javascript
+image_viewer(img_url);
+```
+
+
 End it:
     (inbuilt) 
     let exit_btn = document.createElement("button");
