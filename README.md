@@ -13,9 +13,6 @@ image_viewer(img_url);
 ```
 
 Call it (passing in an array):
-image_viewer_local(adr_gkschem[0],0,adr_gkschem)
-
-
 ```javascript
 let adr_gkschem = [
     "https://fs.jbn.ai/fs/host/gkschem/gatekeeper1.png",
@@ -23,12 +20,12 @@ let adr_gkschem = [
     "https://fs.jbn.ai/fs/host/gkschem/gkuml2.png"
 ];
 /**
+ * Left and Right buttons will apear
  * @param {img_url} - The URL of the initial image to display.
  * @param {img_id} - The inital index of the array. 
  * @param {img_list_arr} img_url - The array of URL's.
  */
-/// image_viewer_local(array, initial array index, initial src)
-image_viewer_local(adr_gkschem[0],0,adr_gkschem)
+image_viewer_local(adr_gkschem[0],0,adr_gkschem);
 ```
 
 
