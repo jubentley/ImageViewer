@@ -12,11 +12,13 @@ Call it:
 image_viewer(img_url);
 ```
 
-
 End it:
-    (inbuilt) 
+```javascript
+    //inbuilt
     let exit_btn = document.createElement("button");
     exit_btn.onclick = function () { terminate(); };
     document.body.appendChild(exit_btn);
+```
+
 
 Been building this since 2022.
