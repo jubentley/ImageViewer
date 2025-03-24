@@ -1,0 +1,300 @@
+﻿/*#####################################################################
+##  ImageViewer.css                                                  ##
+##                                                                   ##
+##                                             #####  ######  ###### ##
+##  Version: 2.7                             ##       ##      ##     ##
+##  Justin Bentley 2022-2024                ##         ##      ##    ##
+##                                      ##  #####  ######  ######    ##
+######################################################################*/
+
+.iv_image {
+    top: 0px;
+    left: 0px;
+    z-index: 201;
+    user-select: none;
+    /*width: 100%;*/
+    min-width: unset;
+    max-width: unset;
+    height: unset;
+    min-height: unset;
+    max-height: unset;
+    overflow: hidden !important;
+    opacity: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: opacity ease-out 1s;
+}
+
+.iv_theme {
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px, rgba(255, 255, 255, 0.6) 1px 1px 10px;
+    position: absolute;
+}
+
+.iv_btn {
+    width: 30px;
+    height: 30px;
+    width: 5dvh;
+    height: 5dvh;
+    z-index: 203;
+    background: linear-gradient(350deg, #FFF -10%, rgba(0,0,0,0.0) 12%, rgba(0,0,0,0.0) 40%, #FFF 110%);
+    color: #faebd78a;
+    color: #fcfcfcf2;
+    font-weight: 900;
+    text-shadow: none;
+    line-height: 0px;
+    opacity: 0.7;
+}
+
+    .iv_btn:hover {
+        background-image: linear-gradient(350deg, rgb(255, 255, 255) 0%, rgba(0, 0, 0, 0) 22%, rgba(0, 0, 0, 0) 30%, rgb(255, 255, 255) 110%);
+        box-shadow: 0px 0px 8px rgba(0, 255, 255, 0.3), 1px 1px 16px rgba(255, 255, 255, 0.5);
+        color: #faebd747;
+    }
+
+.iv_line0 {
+    top: 5vh;
+    top: 5dvh;
+}
+
+.iv_line1 {
+    top: 15vh;
+    top: 15dvh;
+}
+
+.iv_line2 {
+    top: 25vh;
+    top: 25dvh;
+}
+
+.iv_line3 {
+    top: 35vh;
+    top: 35dvh;
+}
+
+.iv_line4 {
+    top: 45vh;
+    top: 45dvh;
+}
+
+/*.iv_line7 {
+    top: 70vh;
+    top: 70dvh;
+}
+
+.iv_line8 {
+    top: 80vh;
+    top: 80dvh;
+}*/
+
+.iv_line9 {
+    top: 90vh;
+    top: 90dvh;
+}
+
+.iv_col0 {
+    left: 31px; /* could use a change */
+}
+
+.iv_col1 {
+    left: calc(100vw - 59px);
+}
+
+
+.iv_screen {
+    overflow: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100vh !important;
+    height: 100dvh !important;
+    width: 100vw !important;
+}
+
+.iv_backdrop {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    background-color: rgba(20,20,20,0.9);
+    z-index: 200;
+}
+
+.iv_sign {
+    color: #ffffff3d;
+    margin: 0 8px 2px 0;
+    padding: 0;
+    font-size: 2vw;
+    user-select: none;
+}
+/*    .iv_sign::before {
+        content: "ImageViewer v2.1 - Justin Bentley 2022"
+    }*/
+.iv_foredrop {
+    z-index: 202;
+    background-color: rgba(20,20,20,0.0);
+}
+
+.iv_symbol {
+    font-size: 26px;
+    font-size: 4dvh;
+    padding: 0 0 2px 0;
+}
+
+.iv_text {
+    font-style: italic;
+    padding: 0 0.5vh 0.3vh 0;
+    padding: 0 0.5dvh 0.3dvh 0;
+    font-size: 3vh;
+    font-size: 3dvh;
+}
+
+.iv_terminate {
+    background-color: rgb(200, 20, 20);
+    /*left: 30px;*/
+    padding-bottom: 4px;
+}
+
+    .iv_terminate::before {
+        content: "x";
+    }
+
+.iv_unsplash {
+    background-color: rgb(20, 200, 20);
+    left: calc(50vw - 12.5vh);
+    left: calc(50vw - 12.5dvh);
+}
+
+    .iv_unsplash::before {
+        content: "US";
+    }
+
+.iv_beach {
+    background-color: rgb(180, 165, 106);
+    left: calc(50vw + 7.5vh);
+    left: calc(50vw + 7.5dvh);
+
+}
+
+    .iv_beach::before {
+        content: "BE";
+    }
+
+.iv_rnd_jbn {
+    background-color: rgb(20, 20, 200);
+    left: calc(50vw - 2.5vh);
+    left: calc(50vw - 2.5dvh);
+}
+
+    .iv_rnd_jbn::before {
+        content: "JB";
+    }
+
+.iv_fullscreen {
+    background-color: rgb(238,130,238);
+    padding-left: 0px;
+}
+
+    .iv_fullscreen::before {
+        content: '\26F6';
+    }
+
+.iv_zoom_plus {
+    background-color: rgb(200, 113, 20);
+}
+
+    .iv_zoom_plus::before {
+        content: "+";
+    }
+
+.iv_zoom_minus {
+    background-color: rgb(20, 175, 200);
+    padding-bottom: 4px;
+}
+
+    .iv_zoom_minus::before {
+        content: "-";
+    }
+
+.iv_btn_lr {
+    height: 60px;
+    height: 10dvh;
+    transition: opacity 1s ease-in-out;
+}
+
+.iv_left {
+    background-color: rgb(32, 255, 0);
+}
+
+    .iv_left::before {
+        /*content: "\2190";*/
+        /*content: "\276F";*/
+        /*content: "\2BB0";*/
+        /*content: "\2BEC";*/
+        /*content: "\261A";*/
+        content: "\2770";
+    }
+
+.iv_right {
+    background-color: rgb(32, 255, 0);
+}
+
+    .iv_right::before {
+        /*content: "\27A5";*/
+        content: "\2771";
+    }
+
+/* was .hidden but was overidded by bootstrap (justin/dennisbentley.net)*/
+.iv_hide {
+    opacity: 0;
+}
+
+#iv_slider {
+    position: absolute;
+    z-index: 203;
+    /*top: 91.5vh;*/
+    top: 91.5dvh;
+    width: 30vw;
+    background: #14ff00;
+    /*height: 1vh;*/
+    height: 3dvh;
+    transition: opacity 5s ease-in-out;
+}
+#iv_slider:hover {
+    opacity: 1.0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#iv_slider::-moz-range-track {
+    background-color: #0F0;
+}
+
+#iv_slider::-moz-range-thumb {
+    background-color: #FFF8;
+    /*height: 8vh;*/
+    /*width: 2vh;*/
+    height: 8dvh;
+    width: 2dvh;
+    border-color: #4F0F;
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px, rgba(255, 255, 255, 0.6) 1px 1px 10px;
+}
+
+#iv_slider::-moz-range-thumb:hover {
+    box-shadow: rgb(0, 255, 0) 0px 0px 5px, rgba(0, 255, 0, 0.6) 1px 1px 10px;
+}
+
+    /* looks better in firefox, blame webkit */
+
+#iv_slider::-webkit-slider-runnable-track {
+    background-color: #0F0;
+    border-radius: 5px;
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px, rgba(255, 255, 255, 0.6) 1px 1px 10px;
+}
+#iv_slider::-webkit-slider-thumb {
+    background-color: #F00;
+    color: white;
+    height: 8vh;
+    height: 8dvh;
+    border-color: #F00;
+    /*box-shadow: 0px 0px 5px rgb(255, 255, 255), 1px 1px 10px rgba(255, 255, 255, 0.6);*/
+}
