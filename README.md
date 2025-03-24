@@ -22,6 +22,7 @@ let adr_gkschem = [
     "https://fs.jbn.ai/fs/host/gkschem/gatekeeperv2r1c.png",
     "https://fs.jbn.ai/fs/host/gkschem/gkuml2.png"
 ];
+/// image_viewer_local(array, initial array index, initial src)
 image_viewer_local(adr_gkschem[0],0,adr_gkschem)
 ```
 
