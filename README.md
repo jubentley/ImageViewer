@@ -24,8 +24,8 @@ let adr_gkschem = [
 ];
 /**
  * @param {img_url} - The URL of the initial image to display.
- * @param {img_id} - The URL of the image to display.
- * @param {img_list_arr} img_url - The URL of the image to display.
+ * @param {img_id} - The inital index of the array. 
+ * @param {img_list_arr} img_url - The array of URL's.
  */
 /// image_viewer_local(array, initial array index, initial src)
 image_viewer_local(adr_gkschem[0],0,adr_gkschem)
