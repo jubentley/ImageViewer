@@ -21,9 +21,9 @@ let adr_gkschem = [
 ];
 /**
  * Left and Right buttons will appear
- * @param {img_url} - The URL of the initial image to display.
- * @param {img_id} - The inital index of the array. 
- * @param {img_list_arr} img_url - The array of URL's.
+ * @param {string} img_url - The URL of the initial image to display.
+ * @param {number(integer)} img_id- The inital index of the array. 
+ * @param {string[]} img_list_arr - The array of URL's.
  */
 image_viewer_local(adr_gkschem[0],0,adr_gkschem);
 ```
@@ -49,6 +49,15 @@ iv_set_lr_api(
  * @param {img_id} - The inital index of the array. 
  */
 image_viewer_lrapi('/images/default_image.jpg', 0);
+```
+
+Initialize Options:
+```javascript
+/**
+ * Left and Right buttons will appear
+ * @param {set} - The URL of the initial image to display.
+ */
+iv_set_extra_buttons(true);
 ```
 
 End it:
