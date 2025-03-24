@@ -2,6 +2,7 @@
 JavaScript (+CSS) self contained Image Viewer
 
 Load it:
+```html
     <link rel="stylesheet" href="/css/imageviewer.css" />
     <script src="/js/imageviewer.js"></script>
 Call it:
