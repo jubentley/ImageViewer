@@ -13,8 +13,8 @@ image_viewer(img_url);
 ```
 
 Call it (passing in an array):
-
 image_viewer_local(adr_gkschem[0],0,adr_gkschem)
+
 
 ```javascript
 let adr_gkschem = [
