@@ -82,4 +82,4 @@ document.body.appendChild(exit_btn);
 ```
 
 
-Been building this since 2022.
+This is all my own work and been building this since 2022.
