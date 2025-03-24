@@ -12,6 +12,18 @@ Call it:
 image_viewer(img_url);
 ```
 
+## Call it (passing in an array):
+
+```javascript
+let adr_gkschem = [
+    "https://fs.jbn.ai/fs/host/gkschem/gatekeeper1.png",
+    "https://fs.jbn.ai/fs/host/gkschem/gatekeeperv2r1c.png",
+    "https://fs.jbn.ai/fs/host/gkschem/gkuml2.png"
+];
+image_viewer_local(adr_gkschem[0],0,adr_gkschem)
+```
+
+
 End it:
 ```javascript
 //inbuilt
