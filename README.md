@@ -82,7 +82,7 @@ document.body.appendChild(exit_btn);
 ```
 
 
-This is all my own work and been building this since 2022.
+This is all my own work, been building this since 2022, and its 0% Vibe Coded 😎.
 
 For further details and to see it running see; [justinbentley.dev#ImageViewer](https://justinbentley.dev/#ImageViewer)
 
