@@ -76,7 +76,7 @@ iv_set_invert_zoom(false);
 End it:<br>
 Inbuilt &lt;button&gt;
 
-Resets its own variables therefore it can be re-called indefinitely on the same page without a reload. 
+Resets its own variables therefore it can be re-called indefinitely on the same page without a page reload. 
 
 See it running here: [justinbentley.net/image](https://justinbentley.net/image)
 
