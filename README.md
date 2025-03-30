@@ -74,7 +74,7 @@ iv_set_invert_zoom(false);
 ```
 
 End it:<br>
-Inbuilt <button>
+Inbuilt &lt;button&gt;
 
 Can be re-called on the same page without a reload. 
 
