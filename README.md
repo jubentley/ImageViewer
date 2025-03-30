@@ -73,13 +73,10 @@ iv_set_lr_force(true);
 iv_set_invert_zoom(false);
 ```
 
-End it:
-```javascript
-//inbuilt
-let exit_btn = document.createElement("button");
-exit_btn.onclick = function () { terminate(); };
-document.body.appendChild(exit_btn);
-```
+End it:<br>
+Inbuilt <button>
+
+Can be re-called on the same page without a reload. 
 
 See it running here: [justinbentley.net/image](https://justinbentley.net/image)
 
