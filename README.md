@@ -35,7 +35,7 @@ iv_set_lr_api(
  */
 image_viewer_lrapi('/images/default_image.jpg', 0);
 ```
-* See it in action here: [arcaneww.com/showcase](https://arcaneww.com/showcase)
+* See it in action at [<i>arcaneww.com/showcase</i>](https://arcaneww.com/showcase)
 
 #### Call it (passing in an array):
 ```javascript
