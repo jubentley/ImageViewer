@@ -1,19 +1,19 @@
 # ImageViewer
 JavaScript (+CSS) self contained Image Viewer
 
-#### Load it:
+## Load it:
 ```html
 <link rel="stylesheet" href="/css/imageviewer.css" />
 <script src="/js/imageviewer.js"></script>
 ```
 
-#### Call it (single image):
+## Call it (single image):
 ```javascript
 image_viewer(img_url);
 ```
 
 
-#### Call it (passing in an API):
+## Call it (passing in an API):
 ```javascript
 
 let base_url = window.location.origin; // localhost or live
@@ -35,9 +35,9 @@ iv_set_lr_api(
  */
 image_viewer_lrapi('/images/default_image.jpg', 0);
 ```
-* See it in action at [<i>arcaneww.com/showcase</i>](https://arcaneww.com/showcase)
+<i>See it in action at [arcaneww.com/showcase](https://arcaneww.com/showcase)</i>
 
-#### Call it (passing in an array):
+## Call it (passing in an array):
 ```javascript
 let adr_gkschem = [
     "https://fs.jbn.ai/fs/host/gkschem/gatekeeper1.png",
@@ -54,7 +54,7 @@ image_viewer_local(adr_gkschem[0],0,adr_gkschem);
 ```
 * See it in action here: [justinbentley.dev](https://justinbentley.dev)
 
-#### Initialize Options:
+## Initialize Options:
 ```javascript
 /**
  * Three buttons down the bottom can appear to Unsplash and other random images
@@ -76,10 +76,10 @@ iv_set_lr_force(true);
 iv_set_invert_zoom(false);
 ```
 
-#### End it:<br>
+## End it:<br>
 Inbuilt &lt;button&gt;
 
-#### Appendum
+## Appendum
 Resets its own variables therefore it can be re-called indefinitely on the same page without a page reload. 
 
 See it running on load here: [justinbentley.net/image](https://justinbentley.net/image).
