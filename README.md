@@ -1,5 +1,7 @@
 # ImageViewer
-JavaScript (+CSS) self contained Image Viewer
+* JavaScript self contained Image Viewer with inluded CSS file.
+* Unlimited Zoom operated by scroll wheel or included buttons
+* Unlimited movement.
 
 ## Load it:
 ```html
@@ -52,7 +54,7 @@ let adr_gkschem = [
  */
 image_viewer_local(adr_gkschem[0],0,adr_gkschem);
 ```
-* See it in action here: [justinbentley.dev](https://justinbentley.dev)
+<i>See it in action at [justinbentley.dev](https://justinbentley.dev)</i>
 
 ## Initialize Options:
 ```javascript
