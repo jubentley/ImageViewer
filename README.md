@@ -84,7 +84,7 @@ Inbuilt &lt;button&gt;
 ## Appendum
 Resets its own variables therefore it can be re-called indefinitely on the same page without a page reload. 
 
-See it running on load here: [justinbentley.net/image](https://justinbentley.net/image).
+See it running on load with a default image or an image url you provide here: [justinbentley.net/image](https://justinbentley.net/image).
 
 Further Details: [justinbentley.dev/#ImageViewer](https://justinbentley.dev/#ImageViewer).
 
